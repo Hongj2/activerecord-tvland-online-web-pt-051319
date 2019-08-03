@@ -10,7 +10,11 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
+<<<<<<< HEAD
 ActiveRecord::Schema.define(version: 2) do
+=======
+ActiveRecord::Schema.define(version: 3) do
+>>>>>>> 802f5aca80ecaa86bb2072e11a8543bea353d63b
 
   create_table "networks", force: :cascade do |t|
     t.string "call_letters"
@@ -19,6 +23,10 @@ ActiveRecord::Schema.define(version: 2) do
 
   create_table "shows", force: :cascade do |t|
     t.string "name"
+<<<<<<< HEAD
+=======
+    t.integer "network_id"
+>>>>>>> 802f5aca80ecaa86bb2072e11a8543bea353d63b
   end
 
 end
