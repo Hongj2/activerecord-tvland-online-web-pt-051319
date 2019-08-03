@@ -23,10 +23,8 @@ ActiveRecord::Schema.define(version: 3) do
 
   create_table "shows", force: :cascade do |t|
     t.string "name"
-<<<<<<< HEAD
-=======
+
     t.integer "network_id"
->>>>>>> 802f5aca80ecaa86bb2072e11a8543bea353d63b
-  end
+
 
 end
